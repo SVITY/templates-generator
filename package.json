@@ -1,0 +1,23 @@
+{
+  "name": "templates-generator",
+  "version": "1.0.0",
+  "description": "Generator of templates",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SVITY/templates-generator.git"
+  },
+  "keywords": [
+    "template",
+    "generator"
+  ],
+  "author": "Vitaly Solovyov <svity.developer@gmail.com> (https://github.com/SVITY)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SVITY/templates-generator/issues"
+  },
+  "homepage": "https://github.com/SVITY/templates-generator#readme"
+}
