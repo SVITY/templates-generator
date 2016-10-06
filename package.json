@@ -19,5 +19,16 @@
   "bugs": {
     "url": "https://github.com/SVITY/templates-generator/issues"
   },
-  "homepage": "https://github.com/SVITY/templates-generator#readme"
+  "homepage": "https://github.com/SVITY/templates-generator#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-core": "^6.17.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.16.0",
+    "babel-preset-stage-0": "^6.16.0",
+    "eslint": "^3.7.1",
+    "eslint-config-airbnb-base": "^8.0.0",
+    "eslint-plugin-import": "^1.16.0",
+    "webpack": "^1.13.2"
+  }
 }
