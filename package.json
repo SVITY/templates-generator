@@ -31,5 +31,9 @@
     "gulp": "^3.9.1",
     "gulp-babel": "^6.1.2",
     "gulp-chmod": "^1.3.0"
+  },
+  "preferGlobal": true,
+  "bin": {
+    "tgenerator": "./dist/index.js"
   }
 }
