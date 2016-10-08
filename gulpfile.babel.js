@@ -4,7 +4,9 @@ import chmod from 'gulp-chmod';
 
 gulp.task('default', () => {
   return gulp.src('src/index.js')
-    .pipe(babel())
+    .pipe(babel({
+      presets: ['es2015', 'stage-0'],
+    }))
     .pipe(chmod(755))
     .pipe(gulp.dest('dist'));
 });
