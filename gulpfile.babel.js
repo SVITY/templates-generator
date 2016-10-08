@@ -9,6 +9,6 @@ gulp.task('default', () => {
     .pipe(gulp.dest('dist'));
 });
 
-gulp.task('watch', () => {
+gulp.task('watch', ['default'], () => {
   gulp.watch('src/**/*.js', ['default']);
 });
