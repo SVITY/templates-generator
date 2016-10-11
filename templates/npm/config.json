@@ -1,0 +1,8 @@
+{
+  "description": "",
+  "regexp": [
+    "name",
+    "description",
+    "author"
+  ]
+}
