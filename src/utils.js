@@ -4,7 +4,8 @@ import readLineSync from 'readline-sync';
 export function getReplacements(words) {
   const replacements = [];
   for (const word of words) {
-    const replacement = readLineSync.question(`${word}: `);
+    let replacement = readLineSync.question(`${word}: `);
+    replacement = replacement.trim();
     const regexp = new RegExp(`###${word}###`, 'g');
     replacements.push({
       regexp,
