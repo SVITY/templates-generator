@@ -1,0 +1,6 @@
+{
+  "description": "React Component (using ES6, ES7)",
+  "regexp": [
+    "componentName"
+  ]
+}
