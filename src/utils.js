@@ -1,6 +1,10 @@
 import readLineSync from 'readline-sync';
 // import replace from 'replace';
 
+export function lowerFirst(string) {
+  return string.charAt(0).toLowerCase() + string.slice(1);
+}
+
 export function getReplacements(words) {
   const replacements = [];
   for (const word of words) {
@@ -30,7 +34,8 @@ export function getNewFilesPaths(files, replacements, rootFilesPath) {
   for (const file of files) {
     let newFile = file;
     for (const r of replacements) {
-      newFile = newFile.replace(r.regexp, r.replacement);
+      const replacement = lowerFirst(r.replacement);
+      newFile = newFile.replace(r.regexp, replacement);
     }
     newFile = newFile.replace(rootFilesPath, currentPath);
     newFiles.push(newFile);
