@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import ###className###View from './###className###View';
+import ###componentName###View from './###componentName###View';
 
-export default class ###className### extends Component {
+export default class ###componentName### extends Component {
   static defaultProps = {
   }
 
@@ -10,7 +10,7 @@ export default class ###className### extends Component {
 
   render() {
     return (
-      <###className###View />
+      <###componentName###View />
     );
   }
 }
